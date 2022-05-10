@@ -1,0 +1,23 @@
+{
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2022-05-08 16:26:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2022-05-08 16:30:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2022-05-08 16:24:19 +0000",
+      "minecraft:river": "2022-05-08 16:25:57 +0000",
+      "minecraft:plains": "2022-05-08 16:23:18 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

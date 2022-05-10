@@ -1,88 +1,67 @@
-[20:17:42] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:17:46] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:17:46] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:17:46] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:17:46] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:17:46] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:17:47] [Worker-Main-6/INFO]: Loaded 7 recipes
-[20:17:47] [Worker-Main-6/INFO]: Loaded 1141 advancements
-[20:17:49] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[20:17:49] [Server thread/INFO]: Loading properties
-[20:17:49] [Server thread/INFO]: Default game type: SURVIVAL
-[20:17:50] [Server thread/INFO]: Generating keypair
-[20:17:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:17:50] [Server thread/INFO]: Using epoll channel type
-[20:17:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:17:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:17:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:17:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:17:50] [Server thread/WARN]: Failed to load operators list: 
-com.google.gson.JsonSyntaxException: Expected entry to be a JsonObject, was "LINA1876"
-	at ajd.m(SourceFile:398) ~[server-1.18.2.jar:?]
-	at ags.f(SourceFile:122) ~[server-1.18.2.jar:?]
-	at acw.A(SourceFile:92) ~[server-1.18.2.jar:?]
-	at acw.<init>(SourceFile:27) ~[server-1.18.2.jar:?]
-	at acx.e(SourceFile:172) ~[server-1.18.2.jar:?]
-	at net.minecraft.server.MinecraftServer.w(SourceFile:670) ~[server-1.18.2.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:273) ~[server-1.18.2.jar:?]
-	at java.lang.Thread.run(Unknown Source) [?:?]
-[20:17:50] [Server thread/INFO]: Preparing level "world"
-[20:17:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:17:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:17:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:17:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:17:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:17:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:17:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:17:54] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:17:54] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:17:55] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:17:55] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:17:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:17:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:18:04] [Worker-Main-5/INFO]: Preparing spawn area: 6%
-[20:18:05] [Worker-Main-4/INFO]: Preparing spawn area: 30%
-[20:18:05] [Worker-Main-5/INFO]: Preparing spawn area: 64%
-[20:18:06] [Worker-Main-4/INFO]: Preparing spawn area: 84%
-[20:18:06] [Worker-Main-6/INFO]: Preparing spawn area: 87%
-[20:18:07] [Worker-Main-4/INFO]: Preparing spawn area: 88%
-[20:18:08] [Worker-Main-4/INFO]: Preparing spawn area: 91%
-[20:18:08] [Server thread/INFO]: Time elapsed: 17062 ms
-[20:18:08] [Server thread/INFO]: Done (17.337s)! For help, type "help"
-[20:18:08] [Server thread/INFO]: Starting remote control listener
-[20:18:08] [Server thread/INFO]: Thread RCON Listener started
-[20:18:08] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[20:19:02] [Server thread/WARN]: handleDisconnection() called twice
-[20:24:08] [Server thread/INFO]: Lina69[/172.21.0.1:58624] logged in with entity id 96 at (2.5, 72.0, 1.5)
-[20:24:08] [Server thread/INFO]: Lina69 joined the game
-[20:24:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
-[20:24:48] [Server thread/INFO]: Villager bnw['Villager'/50, l='ServerLevel[world]', x=167.37, y=67.56, z=60.72] died, message: 'Villager suffocated in a wall'
-[20:24:49] [Server thread/INFO]: Villager bnw['Nitwit'/47, l='ServerLevel[world]', x=168.37, y=67.50, z=41.72] died, message: 'Nitwit suffocated in a wall'
-[20:24:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4355ms or 87 ticks behind
-[20:25:29] [Server thread/INFO]: Lina69 lost connection: Disconnected
-[20:25:29] [Server thread/INFO]: Lina69 left the game
-[20:25:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[20:27:52] [Server thread/INFO]: Lina69[/172.21.0.1:58642] logged in with entity id 417 at (-4.7722294032034185, 72.0, 8.522027543304015)
-[20:27:52] [Server thread/INFO]: Lina69 joined the game
-[20:28:41] [Server thread/INFO]: Lina69 lost connection: Disconnected
-[20:28:41] [Server thread/INFO]: Lina69 left the game
-[20:29:00] [Server thread/INFO]: Stopping the server
-[20:29:00] [Server thread/INFO]: Stopping server
-[20:29:00] [Server thread/INFO]: Saving players
-[20:29:00] [Server thread/INFO]: Saving worlds
-[20:29:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:15:39] [Server thread/INFO]: _combitoo_[/5.227.28.66:53900] logged in with entity id 285377 at (-9.5, 73.0, 3.5)
+[09:15:39] [Server thread/INFO]: _combitoo_ joined the game
+[09:18:30] [Server thread/INFO]: _combitoo_ has made the advancement [Stone Age]
+[09:19:30] [Server thread/INFO]: _combitoo_ has made the advancement [Getting an Upgrade]
+[09:47:47] [Server thread/INFO]: _combitoo_ has made the advancement [Sweet Dreams]
+[10:02:55] [Server thread/INFO]: _combitoo_ has made the advancement [Monster Hunter]
+[10:03:23] [Server thread/INFO]: Lina69[/109.252.88.168:1387] logged in with entity id 292185 at (-91.74583011371728, 63.0, -148.13024477501884)
+[10:03:23] [Server thread/INFO]: Lina69 joined the game
+[10:03:50] [Server thread/INFO]: <_combitoo_> Привет
+[10:03:51] [Server thread/INFO]: <Lina69> Привет
+[10:04:09] [Server thread/INFO]: <_combitoo_> Я Егор если шо
+[10:04:17] [Server thread/INFO]: <Lina69> я поняла)
+[10:21:31] [Server thread/INFO]: Lina69 lost connection: Disconnected
+[10:21:31] [Server thread/INFO]: Lina69 left the game
+[10:23:23] [Server thread/INFO]: _combitoo_ has made the advancement [Acquire Hardware]
+[10:24:57] [Server thread/INFO]: _combitoo_ lost connection: Disconnected
+[10:24:57] [Server thread/INFO]: _combitoo_ left the game
+[13:01:24] [Server thread/INFO]: Lina69[/109.252.88.168:2256] logged in with entity id 295668 at (-54.92552896694021, 70.0, -69.48038049657812)
+[13:01:24] [Server thread/INFO]: Lina69 joined the game
+[13:05:26] [Server thread/INFO]: [Lina69: Gave 64 [Coal] to Lina69]
+[13:05:57] [Server thread/INFO]: [Lina69: Gave 6000 [Jungle Wood] to Lina69]
+[13:07:17] [Server thread/INFO]: [Lina69: Gave 1 [Coal] to Lina69]
+[13:08:48] [Server thread/INFO]: [Lina69: Gave 64 [Coal] to Lina69]
+[13:14:13] [Server thread/INFO]: Lina69 lost connection: Disconnected
+[13:14:13] [Server thread/INFO]: Lina69 left the game
+[13:14:20] [Server thread/INFO]: Lina69[/109.252.88.168:2174] logged in with entity id 297443 at (-62.5424365287692, 63.0, -50.71036037063347)
+[13:14:20] [Server thread/INFO]: Lina69 joined the game
+[13:27:49] [Server thread/INFO]: [Lina69: Gave 64 [Hopper] to Lina69]
+[13:37:06] [Server thread/INFO]: [Lina69: Gave 1 [Dispenser] to Lina69]
+[13:37:21] [Server thread/INFO]: [Lina69: Gave 1 [Water Bucket] to Lina69]
+[15:08:38] [Server thread/INFO]: [Lina69: Set the time to 1000]
+[15:20:29] [Server thread/INFO]: [Lina69: Set the time to 1000]
+[15:36:55] [Server thread/INFO]: [Lina69: Set own game mode to Creative Mode]
+[15:37:23] [Server thread/INFO]: [Lina69: Set own game mode to Survival Mode]
+[16:23:18] [Server thread/INFO]: qwerty[/109.252.185.12:3560] logged in with entity id 325204 at (-4.5, 72.0, 7.5)
+[16:23:18] [Server thread/INFO]: qwerty joined the game
+[16:23:39] [Server thread/INFO]: <Lina69> привет, ты кто?
+[16:24:06] [Server thread/INFO]: <qwerty> привет, дима
+[16:24:15] [Server thread/INFO]: <Lina69> велком
+[16:24:16] [Server thread/INFO]: <qwerty> отус..
+[16:25:21] [Server thread/INFO]: <qwerty> чего какой у вас тут прогресс?
+[16:25:33] [Server thread/INFO]: <Lina69> у нас есть долина
+[16:25:44] [Server thread/INFO]: <Lina69> и я сейчас строю город в ущелье
+[16:26:23] [Server thread/INFO]: <Lina69> по координата -60 -60 можешь найти хостел
+[16:26:33] [Server thread/INFO]: qwerty has made the advancement [Sweet Dreams]
+[16:31:57] [Server thread/INFO]: <qwerty> а 1.18 это уже с пещерами?
+[16:32:48] [Server thread/INFO]: qwerty lost connection: Disconnected
+[16:32:48] [Server thread/INFO]: qwerty left the game
+[16:35:39] [Server thread/INFO]: INETDataSurvey4Z[/163.172.139.143:40508] logged in with entity id 328201 at (-6.5, 72.0, 0.5)
+[16:35:39] [Server thread/INFO]: INETDataSurvey4Z joined the game
+[16:35:39] [Server thread/INFO]: INETDataSurvey4Z lost connection: Disconnected
+[16:35:39] [Server thread/INFO]: INETDataSurvey4Z left the game
+[17:04:08] [Server thread/INFO]: Lina69 lost connection: Disconnected
+[17:04:08] [Server thread/INFO]: Lina69 left the game
+[19:28:18] [Server thread/INFO]: Lina69[/109.252.88.168:2271] logged in with entity id 331350 at (-95.00381614161778, 53.0, -27.513599391127)
+[19:28:18] [Server thread/INFO]: Lina69 joined the game
+[19:29:24] [Server thread/INFO]: Lina69 fell from a high place
+[19:29:48] [Server thread/INFO]: [Lina69: Set own game mode to Creative Mode]
+[19:40:36] [Server thread/INFO]: [Lina69: Set own game mode to Survival Mode]
+[21:18:13] [Server thread/INFO]: Lina69 was impaled by Drowned
+[21:18:15] [Server thread/WARN]: Lina69 moved too quickly! -10.780721596533127,8.0,39.19999998807907
+[21:19:21] [Server thread/INFO]: Lina69 was impaled by Drowned
+[21:19:46] [Server thread/INFO]: Lina69 was impaled by Drowned
+[21:20:44] [Server thread/INFO]: [Lina69: Set own game mode to Creative Mode]
+[21:21:25] [Server thread/INFO]: [Lina69: Set own game mode to Survival Mode]
+[21:51:14] [Server thread/INFO]: Lina69 lost connection: Disconnected
+[21:51:14] [Server thread/INFO]: Lina69 left the game
